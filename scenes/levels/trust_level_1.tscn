@@ -1,0 +1,20 @@
+[gd_scene format=3 uid="uid://bqpapx0ve0l6i"]
+
+[ext_resource type="PackedScene" uid="uid://bsxryyiiprd06" path="res://scenes/levels/trust_level_1_base.tscn" id="1_qancj"]
+
+[sub_resource type="WorldBoundaryShape2D" id="WorldBoundaryShape2D_qancj"]
+normal = Vector2(0, 1)
+
+[node name="Node2D" unique_id=763902924 instance=ExtResource("1_qancj")]
+
+[node name="player" parent="." index="1" unique_id=1083504579]
+collision_layer = 2
+
+[node name="Killzone" parent="." index="2" unique_id=2101903202]
+collision_layer = 4
+
+[node name="CollisionShape2D" parent="goal" parent_id_path=PackedInt32Array(883567217) index="1" unique_id=1269780473]
+position = Vector2(-36, 15)
+shape = SubResource("WorldBoundaryShape2D_qancj")
+one_way_collision = true
+one_way_collision_margin = 0.0

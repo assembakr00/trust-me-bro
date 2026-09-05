@@ -1,0 +1,12 @@
+# Godot 4 project settings
+.godot/
+.import/
+export_presets.cfg
+
+# Editor / OS
+.DS_Store
+Thumbs.db
+
+# Build zips (attach to itch.io / GitHub Releases instead of committing)
+*.zip
+*.7z
