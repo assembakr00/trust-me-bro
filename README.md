@@ -28,12 +28,13 @@ Pixel Platformer pack, Brackeys' platformer asset pack, and Pixel Adventure 1.
 
 ## Running locally
 
-This repository currently contains the exported web build rather than the
-Godot source project. To run it locally:
+The repository contains both the editable Godot project and a generated Web
+export in `web/`. To run the browser build locally:
 
 ```bash
 git clone https://github.com/assembakr00/trust-me-bro.git
 cd trust-me-bro
+cd web
 python3 -m http.server 8000
 # open http://localhost:8000
 ```
@@ -41,6 +42,9 @@ python3 -m http.server 8000
 Serving the game over `file://` won't work because browsers block the
 WASM/threading features required by Godot's web export. It must be served over
 HTTP instead.
+
+To edit the game, open the repository root in Godot. To regenerate the browser
+build, use the `Web` export preset; its output is written to `web/`.
 
 ## Status
 
