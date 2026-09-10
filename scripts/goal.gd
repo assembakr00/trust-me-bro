@@ -50,4 +50,4 @@ func _show_result(message: String) -> void:
 	add_child(overlay_layer)
 
 func _on_timer_timeout() -> void:
-		get_tree().reload_current_scene()
+	get_tree().change_scene_to_file("res://scenes/ui/main_menu.tscn")
