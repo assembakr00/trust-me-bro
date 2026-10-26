@@ -4,7 +4,7 @@
 [ext_resource type="Texture2D" uid="uid://42jj3t6fo3jx" path="res://assets/brackeys_platformer_assets/sprites/world_tileset.png" id="2_t55yv"]
 [ext_resource type="PackedScene" uid="uid://0dt5sn8dhay7" path="res://scenes/objects/player.tscn" id="2_ty6d6"]
 [ext_resource type="Texture2D" uid="uid://bpvts4lkhjv11" path="res://assets/kenney_pixel-platformer/Tilemap/tilemap_packed.png" id="3_2oo5x"]
-[ext_resource type="FontFile" uid="uid://xm27mbn87v28" path="res://assets/ThaleahFat/ThaleahFat.ttf" id="5_fqiu1"]
+[ext_resource type="FontFile" uid="uid://xm27mbn87v28" path="res://assets/fonts and buttons/ThaleahFat/ThaleahFat.ttf" id="5_fqiu1"]
 [ext_resource type="PackedScene" uid="uid://c4p07tpwu81v4" path="res://scenes/objects/killzone.tscn" id="6_ec6di"]
 [ext_resource type="PackedScene" uid="uid://c637gpupmd2v2" path="res://scenes/objects/hay_platform.tscn" id="7_5td5j"]
 [ext_resource type="Animation" uid="uid://dqe3r0vvtgvgq" path="res://resources/animations/platform_hay_1.res" id="7_s18mb"]
